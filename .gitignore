@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+.env
+.venv
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (usually too large for GitHub)
+data/raw/
+data/processed/
+*.tsv
+*.json
+*.xlsx
+*.xls
+*.parquet
+*.h5
+*.hdf5
+*.db
+*.sqlite
+
+# Model files (large binary files)
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pb
+*.onnx
+*.bin
+
+# ML experiment tracking
+mlruns/
+.mlflow/
+wandb/
+lightning_logs/
+
+# Environment variables (keep secrets safe!)
+.env
+.env.local
+*.env
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
